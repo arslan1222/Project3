@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+    
+
+}
+
+body{
+    background: url(bg.jpg);
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* height: 120vh; */
+    /* width: 100%; */
+    background-repeat: no-repeat;
+}
+
+.white-logo{
+    width: 130px;
+}
+
+nav{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding: 15px 70px;
+
+}
+
+.btn1{
+    background-color: rgb(226, 43, 183);
+    font-family: sans-serif;
+    padding: 8px 25px;
+    border-radius: 10px;
+}
+
+.btn1 a{
+    color: #fff;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+nav ul{
+    display: flex;
+    float: left;
+    padding-left: 50px;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+nav ul li{
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding-top: 13px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.main-section{
+    font-family: 'Archivo Black', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+
+}
+
+.h1{
+    font-size: 60px;
+    color: #fff;
+}
+
+main p{
+    color: #fff;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.btn2{
+    margin-top: 25px;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgb(226, 43, 183);
+    font-family: sans-serif;
+    padding: 8px 25px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.btn2 a{
+    color: #fff;
+    text-decoration: none;
+}
